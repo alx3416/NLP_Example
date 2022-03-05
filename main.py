@@ -17,8 +17,8 @@ if __name__ == '__main__':
 
     # Train and evaluate model
     # Define inputSize = 0 to load pretrained model
-    # inputSize = dataContainer.inputData.shape[1]
-    inputSize = 0
+    inputSize = dataContainer.inputData.shape[1]
+    # inputSize = 0
 
     NLPClassifier = cla.TextClassifier(inputSize)
     NLPClassifier.showSummary()
