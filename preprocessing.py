@@ -23,6 +23,7 @@ class TextData:
         self.outputLabelsValues = None
         self.classWeights = None
 
+
     def cleanData(self):
         self.trainData = self.trainData.reset_index(drop=True)
         REPLACE_BY_SPACE_RE = re.compile('[/(){}\[\]\|@,;]')
